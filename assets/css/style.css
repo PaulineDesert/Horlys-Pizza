@@ -11,3 +11,11 @@
 .badge-grey {
     background-color: #65656c;
 }
+.w-100 {
+    filter: brightness(0.5);
+}
+.logo {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
