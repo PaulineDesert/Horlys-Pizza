@@ -1,6 +1,7 @@
 .text-red {
     color: #780001;
     font-family: 'Niconne', cursive;
+    padding-top: 4rem!important;
 }
 .border-red {
     border-color: #780001;
@@ -10,9 +11,6 @@
 }
 .badge-grey {
     background-color: #65656c;
-}
-.txtsize {
-    font-size: 1.2rem;
 }
 .w-100 {
     filter: brightness(0.5);
@@ -24,6 +22,10 @@
 }
 #logo {
     height: 2em;
+}
+.navlogo {
+    height: 30px;
+    width: 30px;
 }
 .btn,
 p {
