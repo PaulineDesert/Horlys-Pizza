@@ -193,7 +193,7 @@
             </div>
 
             <div class="d-block text-center mt-5">
-                <button class="btn btn-secondary text-white" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-expanded="false" aria-controls="collapseExample">Voir plus</button>
+                <button id="showHide" class="btn btn-secondary text-white" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-expanded="false" aria-controls="collapseExample">Voir plus</button>
             </div>
             <div class="collapse" id="collapseMenu">
             <div class="container">
@@ -201,57 +201,21 @@
                     <div class="col-sm-8 col-lg-4 ">
                         <div class="card border-red mt-5 shadow">
                             <card-body>
-                                <h3 class="h4 mb-0 card-title text-center mt-2">Margharita</h3>
-                                <img src="assets/img/margharita.png" class="card-img-top p-3" title="Margharita"
-                                    alt="Margharita" />
-                                <div class="d-flex justify-content-center">
-                                    <p class="m-2"><span class="badge badge-grey text-white p-3">7€</span></p>
-                                    <button type="button" class="btn btn-red text-white m-2" data-placement="top"
-                                        data-toggle="popover" title="Margharita"
-                                        data-content="Tomate, tomate fraîche, mozarella, origan">+ d'infos</button>
-                                    <button type="button" class="btn btn-red  text-white m-2" data-toggle="modal"
-                                        data-target="#commandModal1">Commander</button>
-                                </div>
-                            </card-body>
-                        </div>
-                    </div>
-                    <div class="modal" tabindex="-1" role="dialog" id="commandModal1">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">Bon Appétit !</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body text btn-red text-white">
-                                    <p class="m-0">Votre Pizza Magharita à bien été ajoutée.</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                                    <button type="button" class="btn btn-red text-white">Payer</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-8 col-lg-4 ">
-                        <div class="card border-red mt-5 shadow">
-                            <card-body>
-                                <h3 class="h4 mb-0 card-title text-center mt-2">Royale</h3>
-                                <img src="assets/img/royale.png" class="card-img-top p-3" title="Royale" alt="Royale" />
+                                <h3 class="h4 mb-0 card-title text-center mt-2">Margherita Burrata</h3>
+                                <img src="assets/img/margharita_burrata.jpg" class="card-img-top p-3" title="Margharita Burrata"
+                                    alt="Margharita Burrata" />
                                 <div class="d-flex justify-content-center">
                                     <p class="m-2"><span class="badge badge-grey text-white p-3">10€</span></p>
                                     <button type="button" class="btn btn-red text-white m-2" data-placement="top"
-                                        data-toggle="popover" title="Royale"
-                                        data-content="Tomate, jambon, champignons, olives, oeuf, mozarella">+
-                                        d'infos</button>
+                                        data-toggle="popover" title="Margharita Burrata"
+                                        data-content="Tomate, Mozzarella, Burrata après cuisson, Tomate confite, Origan">+ d'infos</button>
                                     <button type="button" class="btn btn-red  text-white m-2" data-toggle="modal"
-                                        data-target="#commandModal2">Commander</button>
+                                        data-target="#commandModal4">Commander</button>
                                 </div>
                             </card-body>
                         </div>
                     </div>
-                    <div class="modal" tabindex="-1" role="dialog" id="commandModal2">
+                    <div class="modal" tabindex="-1" role="dialog" id="commandModal4">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -261,7 +225,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body text btn-red text-white">
-                                    <p class="m-0">Votre Pizza Royale à bien été ajoutée.</p>
+                                    <p class="m-0">Votre Pizza Magharita Burrata à bien été ajoutée.</p>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
@@ -273,22 +237,21 @@
                     <div class="col-sm-8 col-lg-4 ">
                         <div class="card border-red mt-5 shadow">
                             <card-body>
-                                <h3 class="h4 mb-0 card-title text-center mt-2">Pepperoni</h3>
-                                <img src="assets/img/pepperoni.png" class="card-img-top p-3" title="Pepperoni"
-                                    alt="Pepperoni" />
+                                <h3 class="h4 mb-0 card-title text-center mt-2">Calzone</h3>
+                                <img src="assets/img/calzone.png" class="card-img-top p-3" title="Calzone" alt="Calzone" />
                                 <div class="d-flex justify-content-center">
-                                    <p class="m-2"><span class="badge badge-grey text-white p-3">12€</span></p>
+                                    <p class="m-2"><span class="badge badge-grey text-white p-3">10€</span></p>
                                     <button type="button" class="btn btn-red text-white m-2" data-placement="top"
-                                        data-toggle="popover" title="Pepperoni"
-                                        data-content="Tomate, merguez, pepperoni, oignons, poivrons, mozzarella, tomate confite">+
+                                        data-toggle="popover" title="Calzone"
+                                        data-content="Tomate, Mozzarella, Jambon, oeuf, origan.">+
                                         d'infos</button>
                                     <button type="button" class="btn btn-red  text-white m-2" data-toggle="modal"
-                                        data-target="#commandModal3">Commander</button>
+                                        data-target="#commandModal5">Commander</button>
                                 </div>
                             </card-body>
                         </div>
                     </div>
-                    <div class="modal" tabindex="-1" role="dialog" id="commandModal3">
+                    <div class="modal" tabindex="-1" role="dialog" id="commandModal5">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -298,7 +261,44 @@
                                     </button>
                                 </div>
                                 <div class="modal-body text btn-red text-white">
-                                    <p class="m-0">Votre Pizza Pepperoni à bien été ajoutée.</p>
+                                    <p class="m-0">Votre Pizza Calzone à bien été ajoutée.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                    <button type="button" class="btn btn-red text-white">Payer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-lg-4 ">
+                        <div class="card border-red mt-5 shadow">
+                            <card-body>
+                                <h3 class="h4 mb-0 card-title text-center mt-2">Buffalo</h3>
+                                <img src="assets/img/buffalo.png" class="card-img-top p-3" title="Buffalo"
+                                    alt="Buffalo" />
+                                <div class="d-flex justify-content-center">
+                                    <p class="m-2"><span class="badge badge-grey text-white p-3">12€</span></p>
+                                    <button type="button" class="btn btn-red text-white m-2" data-placement="top"
+                                        data-toggle="popover" title="Buffalo"
+                                        data-content="Tomate, Viande haché bouchère, Poivrons, Cheddar, Mozzarella, Sauce Barbecue">+
+                                        d'infos</button>
+                                    <button type="button" class="btn btn-red  text-white m-2" data-toggle="modal"
+                                        data-target="#commandModal6">Commander</button>
+                                </div>
+                            </card-body>
+                        </div>
+                    </div>
+                    <div class="modal" tabindex="-1" role="dialog" id="commandModal6">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Bon Appétit !</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body text btn-red text-white">
+                                    <p class="m-0">Votre Pizza Buffalo à bien été ajoutée.</p>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
@@ -309,7 +309,119 @@
                     </div>
                 </div>
             </div>
-
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 col-lg-4 ">
+                        <div class="card border-red mt-5 shadow">
+                            <card-body>
+                                <h3 class="h4 mb-0 card-title text-center mt-2">Cannibale</h3>
+                                <img src="assets/img/cannibale.png" class="card-img-top p-3" title="Cannibale"
+                                    alt="Cannibale" />
+                                <div class="d-flex justify-content-center">
+                                    <p class="m-2"><span class="badge badge-grey text-white p-3">12€</span></p>
+                                    <button type="button" class="btn btn-red text-white m-2" data-placement="top"
+                                        data-toggle="popover" title="Cannibale"
+                                        data-content="Tomate, mozzarella, merguez, Viande haché bouchère, Poulet, Sauce BBQ">+ d'infos</button>
+                                    <button type="button" class="btn btn-red  text-white m-2" data-toggle="modal"
+                                        data-target="#commandModal7">Commander</button>
+                                </div>
+                            </card-body>
+                        </div>
+                    </div>
+                    <div class="modal" tabindex="-1" role="dialog" id="commandModal7">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Bon Appétit !</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body text btn-red text-white">
+                                    <p class="m-0">Votre Pizza Cannibale à bien été ajoutée.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                    <button type="button" class="btn btn-red text-white">Payer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-lg-4 ">
+                        <div class="card border-red mt-5 shadow">
+                            <card-body>
+                                <h3 class="h4 mb-0 card-title text-center mt-2">Gusgus</h3>
+                                <img src="assets/img/gusgus.png" class="card-img-top p-3" title="Gusgus" alt="Gusgus" />
+                                <div class="d-flex justify-content-center">
+                                    <p class="m-2"><span class="badge badge-grey text-white p-3">12€</span></p>
+                                    <button type="button" class="btn btn-red text-white m-2" data-placement="top"
+                                        data-toggle="popover" title="Gusgus"
+                                        data-content="Tomate, Champignon, Viande haché bouchère, Persillade, Boursin, Mozzarella">+
+                                        d'infos</button>
+                                    <button type="button" class="btn btn-red  text-white m-2" data-toggle="modal"
+                                        data-target="#commandModal8">Commander</button>
+                                </div>
+                            </card-body>
+                        </div>
+                    </div>
+                    <div class="modal" tabindex="-1" role="dialog" id="commandModal8">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Bon Appétit !</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body text btn-red text-white">
+                                    <p class="m-0">Votre Pizza Gusgus à bien été ajoutée.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                    <button type="button" class="btn btn-red text-white">Payer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-lg-4 ">
+                        <div class="card border-red mt-5 shadow">
+                            <card-body>
+                                <h3 class="h4 mb-0 card-title text-center mt-2">Bolognaise</h3>
+                                <img src="assets/img/bolognaise.png" class="card-img-top p-3" title="Bolognaise"
+                                    alt="Bolognaise" />
+                                <div class="d-flex justify-content-center">
+                                    <p class="m-2"><span class="badge badge-grey text-white p-3">10€</span></p>
+                                    <button type="button" class="btn btn-red text-white m-2" data-placement="top"
+                                        data-toggle="popover" title="Bolognaise"
+                                        data-content="Sauce tomate, Viande haché bouchère, Origan, Mozzarella">+
+                                        d'infos</button>
+                                    <button type="button" class="btn btn-red  text-white m-2" data-toggle="modal"
+                                        data-target="#commandModal9">Commander</button>
+                                </div>
+                            </card-body>
+                        </div>
+                    </div>
+                    <div class="modal" tabindex="-1" role="dialog" id="commandModal9">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Bon Appétit !</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body text btn-red text-white">
+                                    <p class="m-0">Votre Pizza Bolognaise à bien été ajoutée.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                    <button type="button" class="btn btn-red text-white">Payer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="cream">
             <h2 class="h1 text-red text-center pt-5">Base crème fraîche</h2>
