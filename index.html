@@ -13,7 +13,7 @@
 
 <body data-spy="scroll" data-target="#navbar" data-offset="0">
     <header>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div id="carouselHome" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                   <img src="assets/img/couv.png" class="d-block w-100" alt="Pizza">
@@ -25,13 +25,16 @@
           </div>
     </header>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark" id="navbar" style="background-color: #313131;">
-        <a class="navbar-brand" href="#">Accueil</a>
+        <a class="navbar-brand" href="#"><img id="logo" src="assets/img/logo_blanc.png" title="Horly's Pizza" alt="Horly's Pizza"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#carouselHome">Accueil</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#tomato">Pizza base tomate</a>
                 </li>
@@ -52,8 +55,8 @@
         <section id="tomato">
             <h2 class="h1 text-red text-center mt-5">Base tomate</h2>
             <div class="container">
-                <div class="row">
-                    <div class="col-sm">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 col-lg-4">
                         <div class="card border-red mt-5">
                             <card-body>
                                 <h3 class="h4 mb-0 card-title text-center mt-2">Margharita</h3>
@@ -89,7 +92,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm-8 col-lg-4">
                         <div class="card border-red mt-5">
                             <card-body>
                                 <h3 class="h4 mb-0 card-title text-center mt-2">Royale</h3>
@@ -125,7 +128,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm-8 col-lg-4">
                         <div class="card border-red mt-5">
                             <card-body>
                                 <h3 class="h4 mb-0 card-title text-center mt-2">Pepperoni</h3>
