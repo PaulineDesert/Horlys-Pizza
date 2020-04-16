@@ -9,7 +9,8 @@
 .btn-red {
     background-color: #780001;
 }
-.badge-grey {
+.badge-grey,
+.bg-grey {
     background-color: #65656c;
 }
 .w-100 {
@@ -30,4 +31,10 @@
 .btn,
 p {
     font-size: 0.9rem;
+}
+
+@media screen and (max-width: 650px) { 
+    .horlys {
+        height: 5em;
+    }
 }
